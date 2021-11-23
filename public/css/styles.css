@@ -334,24 +334,23 @@ main section article:hover .description{
         display: none;
     }
 
-    header .form{
-        width: 100%;
-        flex-wrap: nowrap;
+    header .form form { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #FFF;
+        padding: 2px;
     }
     
     header .form .input input{
         border-radius: 2px;
         border:0;
         padding: 5px;
-        width: 100%;
     }
 
-    header .form .submit button{
-        background-color: #FFF;
-        width: 10%;
+    header .form .submit button {
         border:0;
     }
-
 }
 
 @media (min-width:769px) {
