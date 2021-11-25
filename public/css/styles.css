@@ -294,8 +294,8 @@ main section article:hover .description{
         align-items: flex-start;
     }
 
-    main section div.products article{
-        width: 45%;
+    .destacados article{
+        margin: 5px;
     }
     .price, .discount{
         width: 50%;
